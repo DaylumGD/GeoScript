@@ -14,9 +14,13 @@ was coded in Python.
 Links
 ------
 YouTube: https://www.youtube.com/@DaylumGMD
+
 Twitch: https://twitch.tv/DaylumGD
+
 GD Account: https://gdbrowser.com/u/daylum
+
 Official Discord Server: https://discord.gg/mXM4tkGj
+
 GeoScript Discord Server: null
 
 Getting started
