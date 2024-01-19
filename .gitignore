@@ -6,6 +6,8 @@
 # User-specific files
 *.rsuser
 *.suo
+*.user
+*._internal.Private.firebase.json
 *.userosscache
 *.sln.docstates
 
