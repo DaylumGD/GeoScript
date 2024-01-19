@@ -51,8 +51,13 @@ version when a method of decoding CCLocalLevels.dat is found that works on mac
 Other Documents
 ----------------
 `doc: Lisence`
+
 `doc: changelog.txt`
+
 `doc: Documentation/Contacts.txt`
+
 `doc: Documentation/ErrorTypes.txt`
+
 `doc: Documentation/InstantHelp.txt`
+
 `doc: Documentation/Tutorial.txt`
