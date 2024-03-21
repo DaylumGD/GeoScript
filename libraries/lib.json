@@ -1,0 +1,9 @@
+{
+    "stdlib": [
+        "utils.gs",
+        "triggers.gs",
+        "sdggl.gs",
+        "typing.gs",
+        "math.gs"
+    ]
+}
