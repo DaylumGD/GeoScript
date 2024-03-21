@@ -46,7 +46,10 @@ When you launch Geometry Dash again and open the level you just compiled you sho
 
 Socials
 -------
-`Youtube <http://youtube.com/@daylumgmd>`_ 
+`Youtube <http://youtube.com/@daylumgmd>`_
+
 `Twitch <http://twitch.tv/DaylumGD>`_  (don't really stream yet but just follow me anyway)
+
 `GD Account <https://gdbrowser.com/u/Daylum>`_ 
+
 `GeoScript Testing Server <Null>`
