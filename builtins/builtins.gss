@@ -1,0 +1,60 @@
+>> Default objects
+#include typing.gs
+
+@class object {
+    #define pinboard: array = []
+    #define object_info: str = ""
+
+    >> builtins
+    #define __annotations__: str = ""
+    #define __base__: str = ""
+    #define __scope__: str = "Global"
+    #define __callid__: str = ""
+    #define __all__: array = []
+    
+    #function gom() {
+        >$ typing.property
+        #define result: dict = {"annotations": __annotations__, "base": __base__, "scope": __scope__, "callid": __callid__}
+        return result
+    };
+}
+
+@class Function {
+    >& object
+
+    pinboard.insert(0, int, 0)
+
+    #function function_id() {
+        >$ typing.property
+        return pinboard[0]
+    }
+}
+
+>> types
+@class int {
+    >& object
+    #function __constructor(int __number) {
+        pinboard.insert(0, int, __number)
+
+        __annotations__ = "The Intager type object"
+
+        __all__ = [
+            "intager_ratio"
+        ]
+    }
+
+    #function intager_ratio(int __number) {
+        >>! takes in a intager as an argument and calculates the intager ratio of the base number with the argument
+
+        #define ratio: int = 0
+        #define defnumber: int = pinboard[0]
+
+        while (defnumber > 0) {
+            if (defnumber - __number > 0) {
+                ratio + 1
+                defnumber - __number
+            }
+            return (__number, ratio)
+        }
+    }
+} 
