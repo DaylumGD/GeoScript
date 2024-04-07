@@ -25,7 +25,7 @@ print('Permitions elivated...')
 time.sleep(0.1)
 
 firecred = {
-  "apiKey": "AIzaSyDS9wfUsAiTVJU_UMXjbVE11cr0VJJ79Mk",
+  "apiKey": "Private Google key",
   "authDomain": "personal-projects-808b0.firebaseapp.com",
   "projectId": "personal-projects-808b0",
   "storageBucket": "personal-projects-808b0.appspot.com",
