@@ -4,6 +4,7 @@ import platform
 
 import shutil
 import os
+import tkinter
 
 import zipfile
 import zlib
@@ -47,3 +48,12 @@ def install():
                 os.remove(file)
             except:
                 pass
+
+#window
+window = tkinter.Tk()
+window.title('Installer')
+window.geometry('300x400')
+
+tkinter.Label(window, text='GeoScript Installer', font=1).place(anchor='center', relx=0.5, rely=0.1)
+
+window.mainloop()
