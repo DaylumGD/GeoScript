@@ -5,6 +5,7 @@ Version 1.0
 IMPORTANT NOTE
 --------------
 .. note:: GeoScript currently only works on Windows 10 and 11, this is because as of now we have no other way of decoding the MacOS's Geometry Dash save file if you know or have an idea of how to decode it then please contact me through Discord.
+.. note:: test
 
 Other note
 ----------
